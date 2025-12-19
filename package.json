@@ -1,0 +1,33 @@
+{
+  "name": "mongo-erd-generator",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool to generate Entity Relationship Diagrams (ERD) from MongoDB databases",
+  "main": "cli.js",
+  "bin": {
+    "mongo-erd": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "erd",
+    "entity-relationship-diagram",
+    "database",
+    "visualization",
+    "mermaid",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "preferGlobal": true,
+  "dependencies": {
+    "@mermaid-js/layout-elk": "^0.2.0",
+    "express": "^5.2.1",
+    "inquirer": "^8.2.6",
+    "mongodb": "^7.0.0",
+    "open": "^8.4.2"
+  }
+}
