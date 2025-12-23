@@ -1,10 +1,10 @@
 {
   "name": "mongo-erd-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive CLI tool to generate Entity Relationship Diagrams (ERD) from MongoDB databases",
   "main": "cli.js",
   "bin": {
-    "mongo-erd": "./cli.js"
+    "mongo-erd": "cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
